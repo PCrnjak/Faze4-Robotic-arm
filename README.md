@@ -14,10 +14,9 @@ What you can find in this repository at this moment:
 - assembly instructions
 - BOM
 - C++ / arduino code for testing the robot
-
+- STL files
 
 Things i will add soon:
-- STL files
 - STEP files
 - wiring instructions
 - simscape models
