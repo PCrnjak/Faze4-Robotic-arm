@@ -15,6 +15,8 @@ What you can find in this repository at this moment:
 - BOM
 - C++ / arduino code for testing the robot
 - STL files
+- Files for PCB
+- Code for work envelope
 
 Things i will add soon:
 - STEP files
