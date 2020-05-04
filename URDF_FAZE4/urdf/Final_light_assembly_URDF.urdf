@@ -1,0 +1,361 @@
+<robot
+  name="Final_light_assembly_URDF">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.0754452420016786 0.0706653851885525 0.174716050606158"
+        rpy="0 0 0" />
+      <mass
+        value="1.75590983031249" />
+      <inertia
+        ixx="0.0106901651591523"
+        ixy="1.2533292416581E-05"
+        ixz="-1.78802486116636E-05"
+        iyy="0.0121389538778755"
+        iyz="-0.0001726147454493"
+        izz="0.00523087609446992" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Final_light_assembly_URDF/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Final_light_assembly_URDF/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="rotary_base">
+    <inertial>
+      <origin
+        xyz="3.6594E-07 -0.12491 -0.0091222"
+        rpy="0 0 0" />
+      <mass
+        value="1.8968" />
+      <inertia
+        ixx="0.011703"
+        ixy="6.2683E-07"
+        ixz="2.7765E-07"
+        iyy="0.010005"
+        iyz="-0.00096832"
+        izz="0.0065158" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Final_light_assembly_URDF/meshes/rotary_base.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Final_light_assembly_URDF/meshes/rotary_base.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="rotary_base"
+    type="continuous">
+    <origin
+      xyz="0.075629 -0.21266 0.050734"
+      rpy="-1.5708 -6.123E-17 -1.5708" />
+    <parent
+      link="base_link" />
+    <child
+      link="rotary_base" />
+    <axis
+      xyz="0 -1 0" />
+  </joint>
+  <link
+    name="nadlaktica">
+    <inertial>
+      <origin
+        xyz="0.11187 -0.011704 0.007695"
+        rpy="0 0 0" />
+      <mass
+        value="3.097" />
+      <inertia
+        ixx="0.011686"
+        ixy="0.0012432"
+        ixz="-0.0018781"
+        iyy="0.03891"
+        iyz="-5.4012E-05"
+        izz="0.032612" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Final_light_assembly_URDF/meshes/nadlaktica.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Final_light_assembly_URDF/meshes/nadlaktica.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="nadlaktica"
+    type="continuous">
+    <origin
+      xyz="0 -0.20182 0"
+      rpy="2.7756E-15 -1.3878E-15 -1.8111" />
+    <parent
+      link="rotary_base" />
+    <child
+      link="nadlaktica" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="lakat">
+    <inertial>
+      <origin
+        xyz="0.020310022580536 -0.0354589471585284 0.00171229454365077"
+        rpy="0 0 0" />
+      <mass
+        value="1.2726491805247" />
+      <inertia
+        ixx="0.00430935066273582"
+        ixy="-0.000472663673983171"
+        ixz="2.10793692092687E-05"
+        iyy="0.00388873322685888"
+        iyz="-0.000102922808916268"
+        izz="0.00512549454697952" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Final_light_assembly_URDF/meshes/lakat.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Final_light_assembly_URDF/meshes/lakat.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="lakat"
+    type="continuous">
+    <origin
+      xyz="0.32 0 0"
+      rpy="3.1416 -6.3895E-16 -1.1753" />
+    <parent
+      link="nadlaktica" />
+    <child
+      link="lakat" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="podlaktica">
+    <inertial>
+      <origin
+        xyz="0.015666 0.10444 0.04524"
+        rpy="0 0 0" />
+      <mass
+        value="0.8658" />
+      <inertia
+        ixx="0.0043737"
+        ixy="-0.00033248"
+        ixz="-0.00029637"
+        iyy="0.0017275"
+        iyz="-0.0011009"
+        izz="0.0039233" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Final_light_assembly_URDF/meshes/podlaktica.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Final_light_assembly_URDF/meshes/podlaktica.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="podlaktica"
+    type="continuous">
+    <origin
+      xyz="0 -0.0735 0"
+      rpy="-0.5648 -0.78173 1.7809" />
+    <parent
+      link="lakat" />
+    <child
+      link="podlaktica" />
+    <axis
+      xyz="0.14804 0.90477 0.39934" />
+  </joint>
+  <link
+    name="saka">
+    <inertial>
+      <origin
+        xyz="0.00102127447654127 0.00173769308862193 -0.00307332521672926"
+        rpy="0 0 0" />
+      <mass
+        value="0.195660541483626" />
+      <inertia
+        ixx="0.000196163267087824"
+        ixy="-1.19915207726741E-07"
+        ixz="-4.99910323817217E-07"
+        iyy="0.000195263940589931"
+        iyz="9.07364788265256E-06"
+        izz="0.000136132402412911" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Final_light_assembly_URDF/meshes/saka.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Final_light_assembly_URDF/meshes/saka.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="saka"
+    type="continuous">
+    <origin
+      xyz="0.037114 0.22683 0.10011"
+      rpy="2.2965 -0.74045 -0.57161" />
+    <parent
+      link="podlaktica" />
+    <child
+      link="saka" />
+    <axis
+      xyz="-1 0 0" />
+  </joint>
+  <link
+    name="hvataljka">
+    <inertial>
+      <origin
+        xyz="0.00017222 0.00017758 0.00947"
+        rpy="0 0 0" />
+      <mass
+        value="0.020284" />
+      <inertia
+        ixx="3.4622E-06"
+        ixy="-9.927E-08"
+        ixz="-2.2616E-08"
+        iyy="3.4561E-06"
+        iyz="-2.332E-08"
+        izz="6.3508E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Final_light_assembly_URDF/meshes/hvataljka.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Final_light_assembly_URDF/meshes/hvataljka.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="hvataljka"
+    type="continuous">
+    <origin
+      xyz="0 0 -0.042312"
+      rpy="-3.1416 2.5362E-15 0.2419" />
+    <parent
+      link="saka" />
+    <child
+      link="hvataljka" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+</robot>
