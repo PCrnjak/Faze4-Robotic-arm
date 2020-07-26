@@ -12,10 +12,10 @@ Again, gross simplification, but we will talk more about it later.
 All code is in github repository.
 
 Matlab code for testing in live script
---------------------------------------------------------
+---------------------------------------
 
  Matlab trajectory planning
-----------------------------------------------------
+----------------------------
 
 ROS  
------------------------------
+----
