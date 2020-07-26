@@ -1,5 +1,5 @@
 
-Electronics and PCB
+Electronics, PCB and wiring
 ===========================
 
 .. meta::
