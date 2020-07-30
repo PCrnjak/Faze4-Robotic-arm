@@ -20,12 +20,12 @@ Whole arm has around 1000 parts (including screws and bearings) and weights arou
 
 # Where to start ? 
 
-To build this robotic arm follow [Building instructions](https://github.com/PCrnjak/Faze4-Robotic-arm/blob/master/Assembly%20instructions%203.0.pdf). All general info about robotic arm is in [DOCS](https://faze4-robotic-arm-docs.readthedocs.io/en/latest/). Building instructions go hand in hand and you need to follow both to build this arm. Building instructions are about general mechanical assembly while DOCS contain ALL info ( Electrical wiring, Low level setup, High level ROS and Matlab, tips ...).
+To build this robotic arm follow [Building instructions](https://github.com/PCrnjak/Faze4-Robotic-arm/blob/master/Assembly%20instructions%203.0.pdf). All general info about robotic arm is in [DOCS](https://faze4-robotic-arm-docs.readthedocs.io/en/latest/). Building instructions and DOCS go hand in hand and you need to follow both to build this arm. Building instructions are about general mechanical assembly while DOCS contain ALL info ( Electrical wiring, Low level setup, High level ROS and Matlab, tips ...).
 
 # Contents:
 
-- [Low level code](https://www.google.com/)
-- [High level code (ROS and Matlab)](https://www.google.com/)
+- [Low level code]() coming soon
+- [High level code (ROS and Matlab)]() coming soon
 - [Building instructions](https://github.com/PCrnjak/Faze4-Robotic-arm/blob/master/Assembly%20instructions%203.0.pdf)
 - [BOM](https://github.com/PCrnjak/Faze4-Robotic-arm/blob/master/Bom_1.2_joint2_update.xlsx) 
 - [DOCS](https://faze4-robotic-arm-docs.readthedocs.io/en/latest/) Contains ALL info about the arm.
@@ -33,7 +33,6 @@ To build this robotic arm follow [Building instructions](https://github.com/PCrn
 
 # Where to see more Faze4 robotic arm?
 - [Youtube](https://www.youtube.com/channel/UCp3sDRwVkbm7b2M-2qwf5aQ)
-- [Official company page]()
 - [Hackaday](https://hackaday.io/project/167247-faze4-robotic-arm)
 - [DOCS](https://faze4-robotic-arm-docs.readthedocs.io/en/latest/)
 
