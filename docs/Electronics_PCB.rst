@@ -17,6 +17,10 @@ PCB V1
 This PCB is first version and has some errors that will be fixed in revision 2.
 Board was created in Altium Circuitmaker and all files can be found here:
 
+.. Warning::
+
+  I recommend waiting for next version since this one has alot of errors.
+
 * `All files for PCB`_
 
 .. _All files for PCB: https://github.com/PCrnjak/Faze4-Robotic-arm/blob/master/Distribution_PCB.zip
