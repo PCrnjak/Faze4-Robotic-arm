@@ -57,7 +57,7 @@ in terms of donations or advice is really appreciated. Thank you!
 
 .. image:: ../docs/images/PayPal-Donate-Button-PNG-Clipart.png
    :width: 230
-   :target: https://www.buymeacoffee.com/Blestron
+   :target: https://paypal.me/PCrnjak?locale.x=en_US
 
 
 Thanks to the:
