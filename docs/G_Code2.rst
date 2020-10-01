@@ -5,9 +5,9 @@ High level code
 .. meta::
    :description lang=en: info about Code.
    
-Code is under MIT license: https://github.com/PCrnjak/Faze4-Robotic-arm/blob/master/LICENSE
-Matlab version used R2018a
-Robotic toolbox version: Robot-10.3.1
+* Code is under MIT license: https://github.com/PCrnjak/Faze4-Robotic-arm/blob/master/LICENSE
+* Matlab version used R2018a
+* Robotic toolbox version: Robot-10.3.1
 
 These codes are best used to take parts from them to develop your own code or just to test the robot.
 They are clunky and you must be really careful when using them on your robot.
