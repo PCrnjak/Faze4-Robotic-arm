@@ -32,6 +32,7 @@ It also shows simulated robot in Matlab window.Script will give back error if co
 
 .. code-block:: python
    :linenos:
+   
    #Here you need to change your COM port to one your arm is connected to
    delete(instrfind);
    x=serial('COM12','BaudRate', 9600);
@@ -39,6 +40,7 @@ It also shows simulated robot in Matlab window.Script will give back error if co
    
    
 Here we Create model of robot arm. If you are using gripper on robot change Gripping point to your value.
+
 .. code-block:: python
    :linenos:
    
