@@ -78,7 +78,6 @@ After robot homes it goes to standy/start position.
     :figwidth: 650px
     :target: ../docs/images/arm_axes.png
     
-If you are writing your own code this is useful to steal ;)
 In main loop move_all(); is based on functions like this:
 
 .. code-block:: python
@@ -124,6 +123,21 @@ Move routine works like this:
    
 One step of stepper motor is defined by change from high to low signal on step pin. speed is defined by length of that signal.
 In this code we use micros as timer function. Lets say we want to half period of our pulse is 500 us. Once we see 500us or more passed we switch step pin to HIGH and move state variable to low. We move that variable low as an indicator that next 500 us will swtich pin to LOW. Now when we switch to LOW state goes to 0 and we increment current position +1. This proces goes until  move_all(); see that current_position = needed_position.
+
+Now in normal operation robot can never hit limit switches if it hits them error variable in main loop goes to 1 and robot locks.
+This is done as a simple safety feature. But it can be disabled by just removing that while (error == 0) loop.
+
+.. code-block:: python
+   :linenos:
+   
+   void loop() {
+
+   while (error == 0) {
+
+    get_data();
+    move_all();
+    }
+    }   
 
 
 
