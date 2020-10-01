@@ -16,6 +16,11 @@ Faze4 robotic arm came to be when i made a working 3d printable cycloidal gearbo
 .. figure:: ../docs/images/6163881566306270006.jpg
     :figwidth: 650px
     :target: ../docs/images/6163881566306270006.jpg
+    
+.. figure:: ../docs/images/ruka_good_slika.jpg
+    :figwidth: 650px
+    :target: ../docs/images/ruka_good_slika.jpg
+    
 
 
 Esthetic design was inspired by FANUC’s LR Mate 200iD. 
