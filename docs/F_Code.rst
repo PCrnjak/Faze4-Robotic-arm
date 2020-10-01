@@ -5,12 +5,12 @@ Low level code
 .. meta::
    :description lang=en: info about Code.
    
-Code is under MIT license: https://github.com/PCrnjak/Faze4-Robotic-arm/blob/master/LICENSE
-Matlab version used R2018a
-Robotic toolbox version: Robot-10.3.1
-Teensyduino version: Teensyduino, Version 1.53
-Teensy board used: 3.5
-Arduino IDE version: 1.8.13
+* Code is under MIT license: https://github.com/PCrnjak/Faze4-Robotic-arm/blob/master/LICENSE
+* Matlab version used R2018a
+* Robotic toolbox version: Robot-10.3.1
+* Teensyduino version: Teensyduino, Version 1.53
+* Teensy board used: 3.5
+* Arduino IDE version: 1.8.13
 
 
 These codes are best used to take parts from them to develop your own code or just to test the robot.
