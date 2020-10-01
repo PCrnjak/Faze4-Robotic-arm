@@ -59,6 +59,7 @@ You would do this if you want to adjust to your robots zero position or move all
 
 .. code-block:: python
    :linenos:
+   
    if(print == 1)
    fwrite(x,Start,'char'); 
    fwrite(x,Start,'char'); 
