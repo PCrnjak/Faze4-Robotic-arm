@@ -40,6 +40,9 @@ Teensyduino is a software add-on for the Arduino software.
 Teensy low level code for testing in Matlab(live script)
 --------------------------------------------------------
 
+.. tip::
+   You can scrap this code for parts and write much better code.
+
 File is located at: Faze4-Robotic-arm/Software1/Low_Level_Arduino/Arduino_GUI_code.ino
 
 It works together with Matlab code located at: Faze4-Robotic-arm/Software1/High_Level_Matlab/GUI_Matlab.mlx
@@ -61,8 +64,8 @@ As you can see in code bellow we call only 2 functions in main loop.
 
     get_data();
     move_all();
-  }
-}
+    }
+    }   
    
 But before we get to main loop robot needs to home. Now if robot starts moving away from its limit switches during homing you need to stop it and do one of 2 things:
 
@@ -70,8 +73,11 @@ But before we get to main loop robot needs to home. Now if robot starts moving a
 * change direction in software
 
 After robot homes it goes to standy/start position.
-***+slika******
 
+.. figure:: ../docs/images/arm_axes.png
+    :figwidth: 650px
+    :target: ../docs/images/arm_axes.png
+    
 If you are writing your own code this is useful to steal ;)
 In main loop move_all(); is based on functions like this:
 
@@ -112,9 +118,7 @@ Move routine works like this:
     digitalWrite(stepPin[joint_num], LOW);
     state[joint_num] = 0;
     current_position[joint_num] = current_position[joint_num] + 1;
-
    }
-
    }
     
    
