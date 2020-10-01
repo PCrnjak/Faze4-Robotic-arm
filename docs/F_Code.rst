@@ -144,5 +144,8 @@ This is done as a simple safety feature. But it can be disabled by just removing
 Teensy low level code for Matlab trajectory planning
 ----------------------------------------------------
 
+File can be found here: Faze4-Robotic-arm/Software1/Low_Level_Arduino/Robot_Arduino_trajectory/Robot_Arduino_trajectory.ino
+Code is almost the same only thing that is done differently is protocol for sending and receiving data is a bit more complex.
+
 Teensy low level code for ROS 
 -----------------------------
