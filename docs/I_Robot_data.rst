@@ -4,9 +4,6 @@ Robot data
 .. meta::
    :description lang=en: General info about Faze4 robotic arm.
 
-General info
-------------
-
 
 Dimensions
 -----------
