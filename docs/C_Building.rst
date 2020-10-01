@@ -25,9 +25,19 @@ You can find bom in this excel document and in building instructions file.
 
 .. Tip::
 
-   I also recommend to buy more items like bearinngs and screws than you need since you might destroy or damage some in building            process.
+   I also recommend to buy more items like bearinngs and screws than you need since you might destroy or damage some in building process.
+   
+   
+Actuator
+---------
 
+Watch this video on how to assemble cycloidal actuators.
 
+.. raw:: html
+
+    <div style="text-align: center; margin-bottom: 2em;">
+    <iframe width="100%" height="350" src="https://www.youtube.com/embed/Ra8FxDiuQns?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
 
 
 
