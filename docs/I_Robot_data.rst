@@ -37,3 +37,11 @@ Belts
 * Joint 4 belt is HTD 5M 430 mm timing belt 10 mm wide does not need to be tightened
 * Joint 5 belt is HTD 5M 285 mm timing belt 10 mm wide and needs to be tightened with bearings
 
+Stepper data
+-------------
+
+PSU
+----
+
+
+
