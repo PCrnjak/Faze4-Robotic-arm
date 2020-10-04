@@ -16,7 +16,7 @@ https://github.com/PCrnjak/Faze4-Robotic-arm  (These instructions are for V1 ver
 
 PCB V2
 --------
-* `Faze4 V2 Schematic`_
+* `Faze4 V2 Schematic`
 .. _ Schematic: https://github.com/PCrnjak/Faze4-Robotic-arm/blob/master/Faze4_DIST_board_v2_files/Schematic.PDF
 
 * `Board STEP files`_
