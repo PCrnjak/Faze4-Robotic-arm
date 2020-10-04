@@ -8,7 +8,7 @@ Electronics, PCB and wiring
 All electronics can also be bought from ebay and similar sites. I used cheap stepper drivers from ebay but you can buy any stepper driver that can supply enough current for the steppers.
 
 Check how i wired my arm in this file: FAZE4 Robotic arm electronics setup.pdf on github page:
-https://github.com/PCrnjak/Faze4-Robotic-arm
+https://github.com/PCrnjak/Faze4-Robotic-arm  (These instructions are for V1 version of board that is not recommended)
 
 .. Tip::
 
