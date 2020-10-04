@@ -18,8 +18,7 @@ PCB V2
 --------
 
 * `Schematic`_
-.. _Schematic_: https://github.com/PCrnjak/Faze4-Robotic-arm/blob/master/Faze4_DIST_board_v2_files/Schematic.PDF
-
+.. _Schematic: https://github.com/PCrnjak/Faze4-Robotic-arm/blob/master/Faze4_DIST_board_v2_files/Schematic.PDF
 
 * `Board STEP files`_
 .. _Board STEP files: https://github.com/PCrnjak/Faze4-Robotic-arm/blob/master/Faze4_DIST_board_v2_files/Faze4_dist_v2_STEP.step
