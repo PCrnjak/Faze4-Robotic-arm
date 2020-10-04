@@ -15,7 +15,7 @@ https://github.com/PCrnjak/Faze4-Robotic-arm
    From experience i found out that cheaper stepper drivers tend to make more noise, so if you want quiet robot arm buy more expensive drivers. I found ones from stepperonline good.
 
 
-PCB V1
+PCB V1 (old, not recommended)
 ------------
 This PCB is first version and has some errors that will be fixed in revision 2.
 Board was created in Altium Circuitmaker and all files can be found here:
