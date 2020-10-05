@@ -65,6 +65,18 @@ When connecting FTDI USB TTL Serial Adapter Module to PCB connect it like this. 
 .. figure:: ../docs/images/ftdi_im.jpg
     :figwidth: 700px
     :target: ../docs/images/ftdi_im.jpg
+    
+    
+Board use guide
+----------------
+
+Connect your teensy 3.5 to board. Once connected it uses onboard 5v regulator on teensy to level shift all 3v3 signals to 5v. If you see problems with stability of signals connect external 5V power source to the connector on the bottom right corner. 
+
+To use inputs on top of the board you NEED 24V power source. Once you connect 24V power to the bottom right connetor you can connect limit switches to the ports labled with (A1 B1, A2 B2, A3 B3 ...) When connecting limit switches connect one end of limit switch to the A1 and other end to B1. There are total of 6 ports for limit switch inputs.
+
+Ports labeled with HV_GND, SIGNAL, 24V are used by Industrial sensor that output 24V signal. One example is inductive sensor.
+
+There is one port on the right side and it is used for grippers. It outputs 3v3 signal.
 
 PCB V1 (old, not recommended)
 ------------------------------
