@@ -60,7 +60,11 @@ When buying OLED display note the location of vcc and gnd pins.
     :figwidth: 700px
     :target: ../docs/images/OLED.jpg
 
+When connecting FTDI USB TTL Serial Adapter Module to PCB connect it like this. Board supports 2 modules operating at the same time!
 
+.. figure:: ../docs/images/ftdi_im.jpg
+    :figwidth: 700px
+    :target: ../docs/images/ftdi_im.jpg
 
 PCB V1 (old, not recommended)
 ------------------------------
