@@ -5,14 +5,14 @@ Electronics, PCB and wiring
 .. meta::
    :description lang=en: info about Electronics and PCB.
    
-All electronics can also be bought from ebay and similar sites. I used cheap stepper drivers from ebay but you can buy any stepper driver that can supply enough current for the steppers.
+All electronics can also be bought from eBay and similar sites. I used cheap stepper drivers from eBay but you can buy any stepper driver that can supply enough current for the steppers.
 
 Check how i wired my arm in this file: FAZE4 Robotic arm electronics setup.pdf on github page:
 https://github.com/PCrnjak/Faze4-Robotic-arm  (These instructions are for V1 version of board that is not recommended)
 
 .. Tip::
 
-   From experience i found out that cheaper stepper drivers tend to make more noise, so if you want quiet robot arm buy more expensive drivers. I found ones from stepperonline good.
+   From experience, i found out that cheaper stepper drivers tend to make more noise, so if you want a quiet robot arm buy more expensive drivers. I found ones from stepperonline good.
 
  Faze4 distribution PCB V2
 --------
@@ -33,14 +33,14 @@ https://github.com/PCrnjak/Faze4-Robotic-arm  (These instructions are for V1 ver
 * `Test Codes`_
 .. _Test Codes: https://github.com/PCrnjak/Faze4-Robotic-arm/tree/master/FAZE4_distribution_board_test_codes
 
-Faze4 Distribution board V2 allows you to connect stepper drivers, limit switches, sensors, displays, microcontrollers, computers and more with each other with clean and simple wiring. It is designed for Faze4 robotic arm but you can use it for any project from CNCs, 3D printers to use in industrial assembly line.
+Faze4 Distribution board V2 allows you to connect stepper drivers, limit switches, sensors, displays, microcontrollers, computers, and more with each other with clean and simple wiring. It is designed for Faze4 robotic arm but you can use it for any project from CNCs, 3D printers to use in the industrial assembly line.
 
-It is designed to use TEENSY 3.5 microcontroller but in near future it will support boards like with STM32 microcontrollers and Atmegas.
+It is designed to use the TEENSY 3.5 microcontroller but in near future, it will support boards like with STM32 microcontrollers and Atmegas
 
-Boards outputs have level shifters that boost 3v3 from microcontroller to 5V. That allows you to use larger set of stepper drivers since they are usually designed for 5v logic.
-5v is also much better for releys. 
+Board outputs have level shifters that boost 3v3 from the microcontroller to 5V. That allows you to use a larger set of stepper drivers since they are usually designed for 5v logic.
+5v is also much better for relays. 
 
-Inputs for the board suppor limit switches and 24V sensors (like inductive, capacative...) used in industry. Inputs are also isolated with optocuplers from microcontroller and use current signals that ensures no voltage induction in wires can accidentaly trigger on microcontroller inputs that cana cause errors and damage in real life. Inputs also have LED indicators that tell you when the signal is present.
+Inputs for the board support limit switches and 24V sensors (like inductive, capacitive...) used in the industry. Inputs are also isolated with optocouplers from a microcontroller and use current signals that ensure no voltage induction in wires can accidentally trigger on microcontroller inputs that can cause errors and damage in real life. Inputs also have LED indicators that tell you when the signal is present.
 
 Board also has 2 UART ports routed that can extend its communication abilities. 
 
