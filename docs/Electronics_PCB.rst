@@ -12,9 +12,9 @@ https://github.com/PCrnjak/Faze4-Robotic-arm  (These instructions are for V1 ver
 
 .. Tip::
    
-   From experience, i found out that cheaper stepper drivers tend to make more noise, so if you want a quiet robot arm buy more expensive drivers. 
+   From experience, i found out that cheaper stepper drivers tend to make more noise, so if you want a quiet robot arm buy more expensive drivers. I foung ones from stepper online to be good.
 
- Faze4 distribution PCB V2
+Faze4 distribution PCB V2
 ---------------------------
 
 .. figure:: ../docs/images/slika1.jpg
