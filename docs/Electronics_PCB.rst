@@ -51,7 +51,9 @@ It also supports typical 128x64 OLED displays.
     :target: ../docs/images/slika4.jpg
 
 When buying OLED display note the location of vcc and gnd pins.
+
 * Order of pins should be: GND, vcc, SCL, SDA
+
 * Check image below
 
 .. figure:: ../docs/images/OLED.jpg
