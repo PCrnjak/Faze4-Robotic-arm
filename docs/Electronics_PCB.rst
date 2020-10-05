@@ -17,6 +17,10 @@ https://github.com/PCrnjak/Faze4-Robotic-arm  (These instructions are for V1 ver
 PCB V2
 --------
 
+.. figure:: ../docs/images/slika1.jpg
+    :figwidth: 400px
+    :target: ../docs/images/slika1.jpg
+
 * `Schematic`_
 .. _Schematic: https://github.com/PCrnjak/Faze4-Robotic-arm/blob/master/Faze4_DIST_board_v2_files/Schematic.PDF
 
@@ -31,18 +35,20 @@ PCB V2
 
 Faze4 Distribution board V2 allows you to connect stepper drivers, limit switches, sensors, displays, microcontrollers, computers and more with each other with clean and simple wiring. It is designed for Faze4 robotic arm but you can use it for any project from CNCs, 3D printers to use in industrial assembly line.
 
-It is designed to use TEENSY 3.5 microcontroller but in near future it will support boards like with STM32 microcontrollers and atmegas.
+It is designed to use TEENSY 3.5 microcontroller but in near future it will support boards like with STM32 microcontrollers and Atmegas.
 
 Boards outputs have level shifters that boost 3v3 from microcontroller to 5V. That allows you to use larger set of stepper drivers since they are usually designed for 5v logic.
 5v is also much better for releys. 
 
-Inputs for the board suppor limit switches and 24V sensors (like inductive, capacative...) used in industry. Inputs are also isolated with optocuplers from microcontroller and use current signals that ensures no voltage induction in wires and accidental trigger on microcontroller inputs that can cause errors and damage in real life.
+Inputs for the board suppor limit switches and 24V sensors (like inductive, capacative...) used in industry. Inputs are also isolated with optocuplers from microcontroller and use current signals that ensures no voltage induction in wires can accidentaly trigger on microcontroller inputs that cana cause errors and damage in real life. Inputs also have LED indicators that tell you when the signal is present.
 
 Board also has 2 UART ports routed that can extend its communication abilities. 
 
 It also supports typical 128x64 OLED displays.
 
-
+.. figure:: ../docs/images/slika4.jpg
+    :figwidth: 400px
+    :target: ../docs/images/slika4.jpg
 
 
 
