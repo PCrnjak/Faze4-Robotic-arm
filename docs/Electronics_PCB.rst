@@ -78,6 +78,11 @@ Ports labeled with HV_GND, SIGNAL, 24V are used by Industrial sensor that output
 
 There is one port on the right side and it is used for grippers. It outputs 3v3 signal.
 
+.. figure:: ../docs/images/inductive.jpg
+    :figwidth: 700px
+    :target: ../docs/images/inductive.jpg
+
+
 PCB V1 (old, not recommended)
 ------------------------------
 This PCB is first version and has some errors that will be fixed in revision 2.
