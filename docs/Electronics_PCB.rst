@@ -54,7 +54,7 @@ When buying OLED display note the location of vcc and gnd pins.
 
 * Order of pins should be: GND, vcc, SCL, SDA
 
-* Check image below
+* Check image below (LEFT ONE IS GOOD, RIGHT ONE IS BAD)
 
 .. figure:: ../docs/images/OLED.jpg
     :figwidth: 700px
