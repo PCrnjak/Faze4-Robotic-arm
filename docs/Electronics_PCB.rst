@@ -35,7 +35,8 @@ Faze4 distribution PCB V2
 
 Faze4 Distribution board V2 allows you to connect stepper drivers, limit switches, sensors, displays, microcontrollers, computers, and more with each other with clean and simple wiring. It is designed for Faze4 robotic arm but you can use it for any project from CNCs, 3D printers to use in the industrial assembly line.
 
-It is designed to use the TEENSY 3.5 microcontroller but in near future, it will support boards like with STM32 microcontrollers and Atmegas
+It is designed to use the TEENSY 3.5 microcontroller but in near future, it will support boards like with STM32 microcontrollers and Atmegas.
+Read more about Teensy here: https://www.pjrc.com/store/teensy35.html
 
 Board outputs have level shifters that boost 3v3 from the microcontroller to 5V. That allows you to use a larger set of stepper drivers since they are usually designed for 5v logic.
 5v is also much better for relays. 
