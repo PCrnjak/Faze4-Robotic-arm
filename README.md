@@ -29,7 +29,7 @@ To build this robotic arm follow [Building instructions](https://github.com/PCrn
 
 - [Low level code]() coming soon
 - [High level code (ROS and Matlab)]() coming soon
-- [Building instructions](https://github.com/PCrnjak/Faze4-Robotic-arm/blob/master/Assembly%20instructions%203.0.pdf)
+- [Building instructions](https://github.com/PCrnjak/Faze4-Robotic-arm/blob/master/Assembly%20instructions%203.1.pdf)
 - [BOM](https://github.com/PCrnjak/Faze4-Robotic-arm/blob/master/Bom_1.2_joint2_update.xlsx) 
 - [DOCS](https://faze4-robotic-arm-docs.readthedocs.io/en/latest/) Contains ALL info about the arm.
 - [URDF files](https://github.com/PCrnjak/Faze4-Robotic-arm/tree/master/URDF_FAZE4) 
