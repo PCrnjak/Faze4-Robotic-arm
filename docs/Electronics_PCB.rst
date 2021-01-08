@@ -17,6 +17,11 @@ https://github.com/PCrnjak/Faze4-Robotic-arm  (These instructions are for V1 ver
 Faze4 distribution PCB V2
 ---------------------------
 
+.. warning::
+   
+   To use code seen in videos and in github repo you will need to modify some pin definitions!
+
+
 .. figure:: ../docs/images/slika1.jpg
     :figwidth: 700px
     :target: ../docs/images/slika1.jpg
