@@ -18,7 +18,7 @@ Main "selling points" of this arm that separate it from other DIY arms are:
 Whole arm has around 1000 parts (including screws and bearings) and weights around 15 kg.
 
 # Check the arm in action !
-[![Check the arm in action !](https://user-images.githubusercontent.com/30388414/86797452-f86cbc80-c06f-11ea-962e-c3f80d14b41b.png)](https://www.youtube.com/watch?v=Anlyy9rq5Yk)
+[![Check the arm in action !](https://user-images.githubusercontent.com/30388414/86797452-f86cbc80-c06f-11ea-962e-c3f80d14b41b.png)](https://www.youtube.com/watch?v=ye37Mpj5qCQ)
 
 # Where to start ? 
 
