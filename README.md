@@ -4,6 +4,8 @@
 
 <img src="https://user-images.githubusercontent.com/30388414/86795587-028dbb80-c06e-11ea-9d71-3d6fbda6cb87.png" width="1200"> 
 
+https://source-robotics.com
+
 Join discord community: https://discord.com/invite/prjUvjmGpZ 
 Faze4 is small fully 3d printable Open source 6 axis robotic arm. It is functionally and esthetically similar to robotic arms in industry but is aimed for research, education and 
 anyone interested in making his own robot arm. 
