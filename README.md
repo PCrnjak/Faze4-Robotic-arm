@@ -13,23 +13,21 @@ Main "selling points" of this arm that separate it from other DIY arms are:
 
 
 * It is cheap <1000 dollars.
-* Uses 3d printed cycloidal gearboxes which have low backlash and can be repaired really easy.
-* All wires are hidden giving it really clean design.
+* Uses 3D printed cycloidal gearboxes which have low backlash and can be repaired really easy.
+* All wires are hidden giving it clean design.
 
 
 Whole arm has around 1000 parts (including screws and bearings) and weights around 15 kg.
 
-# Check the arm in action !
+# Check the arm in action!
 [![Check the arm in action !](https://user-images.githubusercontent.com/30388414/86797452-f86cbc80-c06f-11ea-962e-c3f80d14b41b.png)](https://www.youtube.com/watch?v=ye37Mpj5qCQ)
 
-# Where to start ? 
+# Where to start? 
 
 To build this robotic arm follow [Building instructions](https://github.com/PCrnjak/Faze4-Robotic-arm/blob/master/Assembly%20instructions%203.1.pdf). All general info about robotic arm is in [DOCS](https://faze4-robotic-arm-docs.readthedocs.io/en/latest/). Building instructions and DOCS go hand in hand and you need to follow both to build this arm. Building instructions are about general mechanical assembly while DOCS contain ALL info ( Electrical wiring, Low level setup, High level ROS and Matlab, tips ...).
 
 # Contents:
 
-- [Low level code]() coming soon
-- [High level code (ROS and Matlab)]() coming soon
 - [Building instructions](https://github.com/PCrnjak/Faze4-Robotic-arm/blob/master/Assembly%20instructions%203.1.pdf)
 - [BOM](https://github.com/PCrnjak/Faze4-Robotic-arm/blob/master/Bom_1.2_joint2_update.xlsx) 
 - [DOCS](https://faze4-robotic-arm-docs.readthedocs.io/en/latest/) Contains ALL info about the arm.
