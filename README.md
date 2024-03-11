@@ -46,7 +46,7 @@ in terms of donations or advice is appreciated. Thank you!
 
 [![Check the arm in action !](https://user-images.githubusercontent.com/30388414/86798915-a036ba00-c071-11ea-824d-4456f2cdf797.png)](https://paypal.me/PCrnjak?locale.x=en_US)
 [https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white]()
-[https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white]()
+[![Donate]([https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white])]
 
 # Project is under MIT Licence
 
