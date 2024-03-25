@@ -37,6 +37,7 @@ To build this robotic arm follow [Building instructions](https://github.com/PCrn
 - [Youtube](https://www.youtube.com/channel/UCp3sDRwVkbm7b2M-2qwf5aQ)
 - [Hackaday](https://hackaday.io/project/167247-faze4-robotic-arm)
 - [DOCS](https://faze4-robotic-arm-docs.readthedocs.io/en/latest/)
+- [Instagram](https://www.instagram.com/source_robotics/)
 
 
 # Support the project
