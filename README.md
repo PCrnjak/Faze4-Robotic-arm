@@ -40,6 +40,18 @@ To build this robotic arm follow [Building instructions](https://github.com/PCrn
 - [Instagram](https://www.instagram.com/source_robotics/)
 
 
+# ⚠️ Safety, Liability & Disclaimer
+
+This project includes experimental software, hardware designs, and assembly documentation that are still under development and may contain bugs, errors, or incomplete features.
+By using, building, or modifying this project, you acknowledge and agree that:
+* You use this project entirely at your own risk
+* You are solely responsible for safe assembly, testing, and operation
+* No guarantee is made regarding correctness, safety, or reliability
+* The authors are not responsible for any damage, injury, or loss resulting from the use or misuse of this project 
+* Hardware performance and safety depend on user assembly, component quality, calibration, and handling, which cannot be guaranteed
+
+This project is provided “as is.” If you choose to build a device yourself using these files, designs, or instructions, you do so without any warranties or guarantees, including regarding safety, reliability, or suitability for any particular purpose.
+
 # Support the project
 
 This project is entirely open source and free for all to use. Any support, whether through donations or advice, is greatly appreciated. Thank you!
